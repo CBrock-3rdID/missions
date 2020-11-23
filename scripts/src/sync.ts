@@ -32,8 +32,8 @@ paths.forEach(({ origin, destination }) => {
   const missionDir = destination + '\\mpmissions';
 
   try {
-    sh.rm('-r -f', missionDir)
-    sh.mv(origin, missionDir);
+    sh.rm('-rf', missionDir)
+    sh.cp(origin, missionDir);
   } catch (e) {
     console.log(e);
   }
