@@ -1,0 +1,32 @@
+// === MISSION OVERVIEW
+
+overviewText 	= "3ID Training Facility";	// mission summary
+overviewPicture = "Img\rock.jpg";
+
+// === LOAD SCREEN
+
+loadScreen 		= "Img\rock.jpg";
+author = "3ID Development Team";
+onLoadName = "3ID Training Facility";
+OnLoadMission = "3ID Training Facility";
+
+class Header
+{
+ gameType = Coop;
+ minPlayers = 1;
+ maxPlayers = 156;
+};
+
+enableDebugConsole = 1;
+respawn = "base";
+respawndelay = 1;
+respawnDialog = 0;
+respawnOnStart = 0;
+joinUnassigned = 1;
+disabledAI = 1;
+Saving = 0;
+
+
+#include "defines.hpp"
+#include "dialogs.hpp"
+#include "data\ace_settings.hpp"
