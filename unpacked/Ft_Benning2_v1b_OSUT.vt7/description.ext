@@ -18,14 +18,13 @@ class Header
 };
 
 enableDebugConsole = 1;
-respawn = "base";
-respawndelay = 1;
+respawn = "Base";
+respawndelay = 5;
 respawnDialog = 0;
 respawnOnStart = 0;
 joinUnassigned = 1;
 disabledAI = 1;
 Saving = 0;
-
 
 #include "defines.hpp"
 #include "dialogs.hpp"
