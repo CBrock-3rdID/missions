@@ -1,0 +1,27 @@
+// === MISSION OVERVIEW
+
+overviewText 	= "3rdID Training Facility";	// mission summary
+overviewPicture = "tex\rock.jpg";
+
+// === LOAD SCREEN
+
+loadScreen 		= "tex\rock.jpg";
+author = "3rdID Development Team";
+onLoadName = "3rdID Ft. Stewart";
+OnLoadMission = "Rock of the Marne";
+
+class Header
+{
+ gameType = Coop;
+ minPlayers = 1;
+ maxPlayers = 156;
+};
+
+enableDebugConsole = 1;
+respawn = "respawn_west";
+respawndelay = 5;
+respawnDialog = 0;
+respawnOnStart = 0;
+joinUnassigned = 1;
+disabledAI = 1;
+Saving = 0;
