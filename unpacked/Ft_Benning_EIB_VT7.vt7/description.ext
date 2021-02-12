@@ -1,0 +1,9 @@
+overviewText = "3ID Training Facility [EIB]";
+overviewPicture = "tex\eib.paa";
+
+loadScreen = "tex\eib.paa";
+author = "3rdID Development Team";
+onLoadName = "3rdID Ft.Benning [EIB]";
+onLoadMission = "3rdID Training Facility [EIB]";
+
+respawnOnStart = 0;
