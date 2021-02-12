@@ -25,11 +25,11 @@ else{
       _Str = str _range;
       _tempStr = "vehicle" + _Str;
 
-      _math1 = -((_range / 50) * 33) - 5;
+      _angle = 38;
+      _x = 0 * (cos _angle) - _range * (sin _angle);
+      _y = 0 * (sin _angle) + _range * (cos _angle);
 
-      _math2 = -((_range / 50) * 40) - 7;
-
-      _pos = (_controller modelToWorld [_math1,_math2,0]);
+      _pos = (_controller modelToWorld [_x,_y,0]);
 
       _random = selectRandom ["rhs_btr60_vdv","rhs_bmp1_vdv","rhs_bmp1_vdv"];
       _veh = _random createVehicle _pos;
