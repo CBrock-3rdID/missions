@@ -1,0 +1,11 @@
+_this addAction ["Teleport - AT(M136)","scripts\teleport.sqf",["at"],1.5,true,true,"","true",5,false,"",""];
+_this addAction ["Teleport - Base","scripts\teleport.sqf",["base"],1.5,true,true,"","true",5,false,"",""];
+_this addAction ["Teleport - Grenade Range(M67)","scripts\teleport.sqf",["GR"],1.5,true,true,"","true",5,false,"",""];
+_this addAction ["Teleport - Rifle Range(M16)","scripts\teleport.sqf",["M16"],1.5,true,true,"","true",5,false,"",""];
+_this addAction ["Teleport - Grenade launcher Range (M203)","scripts\teleport.sqf",["M203"],1.5,true,true,"","true",5,false,"",""];
+_this addAction ["Teleport - Machine Gun Range(M249)","scripts\teleport.sqf",["M249"],1.5,true,true,"","true",5,false,"",""];
+_this addAction ["Teleport - Pistol Range(M17)","scripts\teleport.sqf",["M17"],1.5,true,true,"","true",5,false,"",""];
+_this addAction ["Teleport - Medical Field","scripts\teleport.sqf",["MB"],1.5,true,true,"","true",5,false,"",""];
+_this addAction ["Teleport - Obstacle Course","scripts\teleport.sqf",["oc"],1.5,true,true,"","true",5,false,"",""];
+_this addAction ["Teleport - Sniper Range","scripts\teleport.sqf",["Snipe"],1.5,true,true,"","true",5,false,"",""];
+_this addAction ["Teleport - Motor Pool","scripts\teleport.sqf",["MP"],1.5,true,true,"","true",5,false,"",""];
