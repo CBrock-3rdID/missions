@@ -1,5 +1,0 @@
-version=1;
-class EngineAttributes
-{
-	autoGrouping=0;
-};
