@@ -1,0 +1,16 @@
+// === MISSION OVERVIEW
+
+overviewText 	= "FOB Silver Shield Base Template";	// mission summary
+
+// === LOAD SCREEN
+
+author = "3rdID Development Team";
+onLoadName = "Operation Silver Guardian";
+OnLoadMission = "FOB Silver Shield";
+
+respawnTemplates[] = {"MenuPosition", "Counter"};
+respawnDialog = 1;
+respawnOnStart = 0;
+
+//R3F Logistics
+#include "R3F_LOG\desc_include.h"

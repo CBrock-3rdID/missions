@@ -1,0 +1,16 @@
+// === MISSION OVERVIEW
+
+overviewText 	= "Operation Silver Guardian Presence Patrol 3";	// mission summary
+
+// === LOAD SCREEN
+
+author = "3rdID Development Team";
+onLoadName = "Operation Silver Guardian";
+OnLoadMission = "Presence Patrol 3";
+
+respawnTemplates[] = {"MenuPosition", "Counter"};
+respawnDialog = 1;
+respawnOnStart = 0;
+
+//R3F Logistics
+#include "R3F_LOG\desc_include.h"

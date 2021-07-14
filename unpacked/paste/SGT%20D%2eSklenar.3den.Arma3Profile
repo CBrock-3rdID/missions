@@ -1,0 +1,6 @@
+version=1;
+class EngineAttributes
+{
+	autoGrouping=0;
+	autosaveTime=300000;
+};

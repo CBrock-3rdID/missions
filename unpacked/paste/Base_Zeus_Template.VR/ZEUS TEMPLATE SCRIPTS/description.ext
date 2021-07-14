@@ -1,0 +1,25 @@
+//This is what it shows when loading into the mission.
+author = "3rdID Dev Team";
+onLoadName = "[3rdID] Zeus : MAP_NAME_HERE";
+onLoadMission = "[3rdID] Zeus : MAP_NAME_HERE";
+loadScreen 	= "pic\rock.paa";
+
+//Respawn and multiplayer settings, meaning you don't have to edit it in Editor, scripts override the mission settings.
+class Header
+{
+	gameType = Coop; // MP mission type
+};
+
+disabledAI = 1;
+respawnTemplates[] = {"MenuPosition", "Counter"};
+respawnDelay = 6;
+respawnButton = 1;
+respawnOnStart = 0;
+
+//Corpse and Wreck deletion, so that the Zeus doesn't have to manually delete.
+corpseManagerMode = 3;
+corpseLimit = 30; //Corpse limit in mission, units that respawn should not be deleted.
+corpseRemovalMinTime = 20; //Intervals between checks for corpseLimit, time in seconds.
+wreckLimit = 20; //Same with corpseLimit, except with wrecks.
+wreckRemovalMinTime = 20; //Same with corpseRemovalMinTime.
+minPlayerDistance = 25; //How far does the player need to be away from the corpse for it to delete itself, in meters.

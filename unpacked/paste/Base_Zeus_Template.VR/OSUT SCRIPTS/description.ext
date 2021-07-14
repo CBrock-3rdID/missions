@@ -1,0 +1,26 @@
+// === MISSION OVERVIEW
+
+overviewText 	= "3rdID Training Facility";	// mission summary
+overviewPicture = "Img\rock.paa";
+
+// === LOAD SCREEN
+
+loadScreen 	= "Img\rock.paa";
+author = "3rdID Development Team";
+onLoadName = "3rdID Training Facility";
+OnLoadMission = "3rdID Training Facility";
+
+class Header
+{
+  gameType = Coop;
+};
+
+respawnTemplates[] = {"MenuPosition", "Counter"};
+respawndelay = 6;
+respawnDialog = 0;
+respawnOnStart = 0;
+joinUnassigned = 1;
+disabledAI = 1;
+
+#include "defines.hpp"
+#include "dialogs.hpp"
