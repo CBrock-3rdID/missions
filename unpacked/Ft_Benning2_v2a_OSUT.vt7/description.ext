@@ -29,3 +29,6 @@ Saving = 0;
 #include "defines.hpp"
 #include "dialogs.hpp"
 #include "data\ace_settings.hpp"
+
+//R3F
+#include "R3F_LOG\desc_include.h"

@@ -18,7 +18,7 @@ _scoreBoard = _controller getVariable "scoreBoard";
 {_x  animate["terc",1]} forEach _targets;
 _controller setVariable ["pistolScore", _score];
 hint parseText "<t align='center' size='1.25'><t color='#8CD654' shadow='1'>Standing position </t><br /> 15 rounds</t>";
-_player addMagazine ["506th_mag_m17_17rnd9mm",15];
+_player addMagazine ["rhsusf_mag_15Rnd_9x19_FMJ",15];
 reload _player;
 sleep 5;
 

@@ -27,4 +27,4 @@ _controller setVariable["300mQualRangeOldWeaponsMagazinesItems", _oldObjects];
 ];
 
 removeAllWeapons _player;
-_player addWeapon "506th_weap_m17f";
+_player addWeapon "rhsusf_weap_m9";
